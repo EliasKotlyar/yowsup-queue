@@ -92,7 +92,7 @@ class QueueLayer(YowInterfaceLayer):
 
         #self.sendQueue.sendMessage(retItem)
         self.sendQueue.put(retItem)
-        self.output("Received Message from %s : %s" % (messageProtocolEntity.getFrom(), messageBody))
+        #self.output("Received Message from %s : %s" % (messageProtocolEntity.getFrom(), messageBody))
         #self.toLower(receipt)
         # self.toLower(outgoingMessageProtocolEntity)
         self.toLower(messageProtocolEntity.ack())
@@ -223,5 +223,6 @@ class QueueLayer(YowInterfaceLayer):
 
     def output(self, str):
 
-        print(str)
+        #print(str)
+        pass
 
