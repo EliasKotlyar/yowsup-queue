@@ -1,4 +1,7 @@
-# yowsup-queue
+#[DEPRECATED] yowsup-queue
+
+# This Project is deprecated. Please consider using https://github.com/EliasKotlyar/yowsup-microservice instead. It is not compatible to any Version of yowsup > 2.4
+
 This Project provides a interface to yowsup2. You can Send/Receive Whatsapp-Messages with any language of your choice. 
 
 ###Prerequisites:
